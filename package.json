@@ -1,16 +1,16 @@
 {
   "name": "catch-safe",
   "description": "Zero-dependency type-safe error handling utility",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/tundera/catch-safe"
   },
   "author": {
-    "name": "Your Name",
+    "name": "Philip Johnston",
     "url": "https://github.com/tundera",
     "email": "tundera@gmail.com"
   },
-  "version": "0.1.0",
   "license": "MIT",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
