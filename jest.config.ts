@@ -5,8 +5,7 @@ const config: InitialOptionsTsJest = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
     '^src/(.*)$': '<rootDir>/src/$1',
-    '^test/(.*)$': '<rootDir>/test/$1',
-    '^stories/(.*)$': '<rootDir>/stories/$1',
+    '^test/(.*)$': '<rootDir>/test/$1'
   },
 }
 

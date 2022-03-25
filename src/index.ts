@@ -1,1 +1,1 @@
-export * from './make-dir'
+export * from './get-error-message'
