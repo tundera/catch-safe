@@ -5,10 +5,11 @@ const getThrown = (thrown: unknown) => {
   try {
     throw thrown
   } catch (error) {
-    // we'll proceed, but let's report it
     return getErrorMessage(error)
   }
 }
+
+const wrapWithDoubleQuotes = (text: string) => `"${text}"`
 
 test('error message valid variable is of type `Error`', async () => {
   const error = getThrown(new Error('Oh no!'))
@@ -16,8 +17,8 @@ test('error message valid variable is of type `Error`', async () => {
   expect(getErrorMessage(error)).toEqual(`"Oh no!"`)
 })
 
-test('error message is an empty object when catch variable is not of type `Error`', async () => {
+test('error message is an empty error object when catch variable is not of type `Error`', async () => {
   const error = getThrown(Promise.resolve('Hello'))
 
-  expect(getErrorMessage(error)).toEqual(`"{}"`)
+  expect(getErrorMessage(error)).toEqual(wrapWithDoubleQuotes(JSON.stringify(new Error())))
 })
