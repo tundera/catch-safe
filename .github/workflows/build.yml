@@ -18,10 +18,10 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.1
 
-      - name: Set node
+      - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 16
           cache: 'pnpm'
 
       - name: Install
@@ -38,10 +38,10 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.1
 
-      - name: Set node
+      - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 16
           cache: 'pnpm'
 
       - name: Install
@@ -54,26 +54,18 @@ jobs:
         run: pnpm run typecheck
 
   test:
-    runs-on: ${{ matrix.os }}
-
+    runs-on: ubuntu-latest
     timeout-minutes: 10
-
-    strategy:
-      matrix:
-        node_version: [14.x, 16.x]
-        os: [ubuntu-latest, windows-latest] #, macos-latest]
-      fail-fast: false
-
     steps:
       - uses: actions/checkout@v3
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.1
 
-      - name: Set node version to ${{ matrix.node_version }}
+      - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node_version }}
+          node-version: 16
           cache: 'pnpm'
 
       - name: Install
