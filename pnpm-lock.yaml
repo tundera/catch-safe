@@ -11,7 +11,7 @@ specifiers:
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-prettier: 4.0.0
-  gacp: 3.0.0
+  gacp: 3.0.1
   husky: 7.0.4
   lint-staged: 12.4.1
   prettier: 2.6.2
@@ -31,7 +31,7 @@ devDependencies:
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0_eslint@8.14.0
   eslint-plugin-prettier: 4.0.0_mzpligoj26dazigcet37nxg2zy
-  gacp: 3.0.0
+  gacp: 3.0.1
   husky: 7.0.4
   lint-staged: 12.4.1
   prettier: 2.6.2
@@ -1704,8 +1704,8 @@ packages:
     resolution: {integrity: sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=}
     dev: true
 
-  /gacp/3.0.0:
-    resolution: {integrity: sha512-DThvKz5WDGIjm55NucVEGyW3Bavh4UKI6MgJJa2jpiyRtqSIqO9oeaEtpDv0GA2Ko2+og9w1zjhvJeB/3Tgn6Q==}
+  /gacp/3.0.1:
+    resolution: {integrity: sha512-f3Gnuzn4lGGDslZI6Zdm+QzI1hL+0HbyvyykLCYuB9Bb+CMZPkAe0NUlIcz6Gfx4jm14LErhnW01H6I7qW5RVw==}
     hasBin: true
     dependencies:
       '@commitlint/load': 12.1.4
