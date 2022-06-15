@@ -6,7 +6,7 @@ specifiers:
   '@types/node': 17.0.21
   '@typescript-eslint/eslint-plugin': 5.28.0
   '@typescript-eslint/parser': 5.28.0
-  bumpp: 7.1.1
+  bumpp: 7.2.0
   cross-env: 7.0.3
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0
@@ -26,7 +26,7 @@ devDependencies:
   '@types/node': 17.0.21
   '@typescript-eslint/eslint-plugin': 5.28.0_7yumg2qjgbp7maccqlfhx2vudu
   '@typescript-eslint/parser': 5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4
-  bumpp: 7.1.1
+  bumpp: 7.2.0
   cross-env: 7.0.3
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0_eslint@8.17.0
@@ -728,8 +728,8 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /bumpp/7.1.1:
-    resolution: {integrity: sha512-pAGjraw9T4I4dnkiQHrKUVQb55dOM5Nj72SVtVlkjFjWjFtg0aSgipQuxDWZ0cqm8WoqtaiBPk+7jHfnZxr7lA==}
+  /bumpp/7.2.0:
+    resolution: {integrity: sha512-vQxdpWe7VzdpV4dVjpWoGwTDrKZn4eqKVmjIYUlDgrmjesXAqJnWhu+VFxazoE4pLs1q5NwDhgzK1xAFL0K+Jg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -738,7 +738,7 @@ packages:
       command-line-args: 5.2.1
       globby: 11.1.0
       prompts: 2.4.2
-      semver: 7.3.5
+      semver: 7.3.7
     dev: true
 
   /bundle-require/3.0.4_esbuild@0.14.28:
@@ -770,7 +770,7 @@ packages:
     dev: true
 
   /call-me-maybe/1.0.1:
-    resolution: {integrity: sha1-JtII6onje1y95gJQoV8DHBak1ms=}
+    resolution: {integrity: sha512-wCyFsDQkKPwwF8BDwOiWNx/9K45L/hvggQiDbve+viMNMQnWhrlYIuBk09offfwCRtCO9P6XwUttufzU11WCVw==}
     dev: true
 
   /callsites/3.1.0:
@@ -2251,7 +2251,7 @@ packages:
     dev: true
 
   /lodash.camelcase/4.3.0:
-    resolution: {integrity: sha1-soqmKIorn8ZRA1x3EfZathkDMaY=}
+    resolution: {integrity: sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==}
     dev: true
 
   /lodash.merge/4.6.2:
@@ -2943,14 +2943,6 @@ packages:
   /semver/6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
-    dev: true
-
-  /semver/7.3.5:
-    resolution: {integrity: sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
     dev: true
 
   /semver/7.3.7:
