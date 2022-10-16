@@ -12,7 +12,7 @@
     "email": "tundera@gmail.com"
   },
   "license": "MIT",
-  "packageManager": "pnpm@7.13.4",
+  "packageManager": "pnpm@7.13.5",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
