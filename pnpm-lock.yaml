@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': 17.6.5
   '@commitlint/config-conventional': 17.6.5
-  '@types/node': 17.0.21
+  '@types/node': 18.16.18
   '@typescript-eslint/eslint-plugin': 5.59.11
   '@typescript-eslint/parser': 5.59.11
   bumpp: 7.2.0
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@commitlint/cli': 17.6.5
   '@commitlint/config-conventional': 17.6.5
-  '@types/node': 17.0.21
+  '@types/node': 18.16.18
   '@typescript-eslint/eslint-plugin': 5.59.11_jxhnufqfdxsaktvg4boo4kir6q
   '@typescript-eslint/parser': 5.59.11_2jcgcerbs6bi4debdtwega5q6u
   bumpp: 7.2.0
@@ -167,15 +167,15 @@ packages:
       '@commitlint/execute-rule': 17.4.0
       '@commitlint/resolve-extends': 17.4.4
       '@commitlint/types': 17.4.4
-      '@types/node': 17.0.21
+      '@types/node': 18.16.18
       chalk: 4.1.2
       cosmiconfig: 8.0.0
-      cosmiconfig-typescript-loader: 4.0.0_pism6yedntufa32xqwvbn4t57a
+      cosmiconfig-typescript-loader: 4.0.0_yjkiwx7hbneml2ownkdri5a2cm
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1_lgl74zxfeixxnkkjyap7d37pme
+      ts-node: 10.9.1_yzisdybrv5fcqwk76kx5zmv7sq
       typescript: 4.9.5
     transitivePeerDependencies:
       - '@swc/core'
@@ -638,7 +638,7 @@ packages:
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 17.0.21
+      '@types/node': 18.16.18
     dev: true
 
   /@types/minimatch/3.0.5:
@@ -649,8 +649,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/17.0.21:
-    resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==}
+  /@types/node/18.16.18:
+    resolution: {integrity: sha512-/aNaQZD0+iSBAGnvvN2Cx92HqE5sZCPZtx2TsK+4nvV23fFe09jVDvpArXr2j9DnYlzuU9WuoykDDc6wqvpNcw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -664,7 +664,7 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 17.0.21
+      '@types/node': 18.16.18
     dev: true
 
   /@types/semver/7.3.12:
@@ -1348,7 +1348,7 @@ packages:
       through2: 4.0.2
     dev: true
 
-  /cosmiconfig-typescript-loader/4.0.0_pism6yedntufa32xqwvbn4t57a:
+  /cosmiconfig-typescript-loader/4.0.0_yjkiwx7hbneml2ownkdri5a2cm:
     resolution: {integrity: sha512-cVpucSc2Tf+VPwCCR7SZzmQTQkPbkk4O01yXsYqXBIbjE1bhwqSyAgYQkRK1un4i0OPziTleqFhdkmOc4RQ/9g==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -1357,9 +1357,9 @@ packages:
       ts-node: '>=10'
       typescript: '>=3'
     dependencies:
-      '@types/node': 17.0.21
+      '@types/node': 18.16.18
       cosmiconfig: 8.0.0
-      ts-node: 10.9.1_lgl74zxfeixxnkkjyap7d37pme
+      ts-node: 10.9.1_yzisdybrv5fcqwk76kx5zmv7sq
       typescript: 4.9.5
     dev: true
 
@@ -3775,7 +3775,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-node/10.9.1_lgl74zxfeixxnkkjyap7d37pme:
+  /ts-node/10.9.1_yzisdybrv5fcqwk76kx5zmv7sq:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3794,7 +3794,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 17.0.21
+      '@types/node': 18.16.18
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -4057,7 +4057,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
-      '@types/node': 17.0.21
+      '@types/node': 18.16.18
       '@vitest/expect': 0.32.2
       '@vitest/runner': 0.32.2
       '@vitest/snapshot': 0.32.2
