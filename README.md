@@ -5,8 +5,11 @@
 > Kent C. Dodds
 
 Since TypeScript 4.4, catch clause variables default to the `unknown` type. This library provides a
-zero-dependency utility function which allows you to extract the error message in a type-safe manner
-when the variable is of type `Error`.
+zero-dependency utility function which allows you to extract the error message in a type-safe
+manner.
+
+When the catch clause variable is of type `Error`, the `getErrorMessage` function returns the error
+message. Otherwise, it returns an empty error object.
 
 ## Installation
 
