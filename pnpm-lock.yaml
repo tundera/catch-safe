@@ -34,7 +34,7 @@ devDependencies:
     version: 8.10.0(eslint@8.57.1)
   eslint-plugin-prettier:
     specifier: 4.2.1
-    version: 4.2.1(eslint-config-prettier@8.10.0)(eslint@8.57.1)(prettier@2.8.8)
+    version: 4.2.1(eslint-config-prettier@8.10.0)(eslint@8.57.1)(prettier@3.4.2)
   gacp:
     specifier: 3.0.3
     version: 3.0.3
@@ -45,11 +45,11 @@ devDependencies:
     specifier: 13.3.0
     version: 13.3.0
   prettier:
-    specifier: 2.8.8
-    version: 2.8.8
+    specifier: 3.4.2
+    version: 3.4.2
   pretty-quick:
     specifier: 3.3.1
-    version: 3.3.1(prettier@2.8.8)
+    version: 3.3.1(prettier@3.4.2)
   tsup:
     specifier: 7.3.0
     version: 7.3.0(ts-node@10.9.1)(typescript@5.6.3)
@@ -1945,7 +1945,7 @@ packages:
       eslint: 8.57.1
     dev: true
 
-  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.10.0)(eslint@8.57.1)(prettier@2.8.8):
+  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.10.0)(eslint@8.57.1)(prettier@3.4.2):
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1958,7 +1958,7 @@ packages:
     dependencies:
       eslint: 8.57.1
       eslint-config-prettier: 8.10.0(eslint@8.57.1)
-      prettier: 2.8.8
+      prettier: 3.4.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -3448,9 +3448,9 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier@2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
@@ -3463,7 +3463,7 @@ packages:
       react-is: 18.2.0
     dev: true
 
-  /pretty-quick@3.3.1(prettier@2.8.8):
+  /pretty-quick@3.3.1(prettier@3.4.2):
     resolution: {integrity: sha512-3b36UXfYQ+IXXqex6mCca89jC8u0mYLqFAN5eTQKoXO6oCQYcIVYZEB/5AlBHI7JPYygReM2Vv6Vom/Gln7fBg==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -3476,7 +3476,7 @@ packages:
       mri: 1.2.0
       picocolors: 1.0.0
       picomatch: 3.0.1
-      prettier: 2.8.8
+      prettier: 3.4.2
       tslib: 2.8.0
     dev: true
 
